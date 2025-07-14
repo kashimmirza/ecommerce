@@ -1,0 +1,23 @@
+/** @format */
+
+.image-gallery {
+ display: flex;
+ flex-wrap: wrap;
+}
+
+.imageContainer {
+ margin: 5px;
+ cursor: pointer;
+}
+
+.hover-lazy-felix:hover {
+ /* Your hover styles here, e.g., scale the image */
+ transform: scale(1.05);
+ transition: transform 0.2s ease;
+}
+
+.hover-lazy-felix.hover {
+ /* When the image is in hover state */
+ /* For example, you can change the opacity or show a tooltip */
+ opacity: 1; /* or any other styles you want to change on hover */
+}

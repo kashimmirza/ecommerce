@@ -1,0 +1,531 @@
+/**
+ * Blucheez Payment Modal Styles
+ *
+ * @format
+ */
+
+.payment-modal-overlay {
+ position: fixed;
+ top: 0;
+ left: 0;
+ right: 0;
+ bottom: 0;
+ background-color: rgba(0, 0, 0, 0.5);
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ padding: 1rem;
+ z-index: 50;
+}
+
+.payment-modal-container {
+ background-color: white;
+ border-radius: 0.5rem;
+ box-shadow: 0 25px 50px -12px rgba(0, 0, 0, 0.25);
+ width: 100%;
+ max-width: 28rem;
+ max-height: 90vh;
+ overflow-y: auto;
+}
+
+/* Header Styles */
+.payment-modal-header {
+ background: linear-gradient(to right, #ef4444, #dc2626);
+ color: white;
+ padding: 1rem;
+ border-radius: 0.5rem 0.5rem 0 0;
+ position: relative;
+ text-align: center;
+}
+
+.payment-modal-logo {
+ width: 4rem;
+ height: 4rem;
+ background-color: #b91c1c;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0 auto 0.5rem;
+ font-size: 0.875rem;
+ font-weight: bold;
+}
+
+.payment-modal-title {
+ font-size: 1.25rem;
+ font-weight: bold;
+ margin: 0;
+}
+
+.payment-modal-time {
+ font-size: 0.875rem;
+ opacity: 0.9;
+}
+
+.close-button {
+ position: absolute;
+ top: 1rem;
+ right: 1rem;
+ color: white;
+ background: none;
+ border: none;
+ border-radius: 50%;
+ padding: 0.25rem;
+ cursor: pointer;
+ transition: background-color 0.2s;
+}
+
+.close-button:hover {
+ background-color: #b91c1c;
+}
+
+/* Action Buttons */
+.action-buttons-container {
+ padding: 1rem;
+ border-bottom: 1px solid #e5e7eb;
+}
+
+.action-buttons {
+ display: flex;
+ justify-content: space-around;
+}
+
+.action-button {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ color: #3b82f6;
+ background: none;
+ border: none;
+ cursor: pointer;
+ transition: color 0.2s;
+}
+
+.action-button:hover {
+ color: #1d4ed8;
+}
+
+.action-button-text {
+ font-size: 0.75rem;
+ margin-top: 0.25rem;
+}
+
+/* Panel Styles */
+.support-panel {
+ padding: 1rem;
+ background-color: #f9fafb;
+ border-bottom: 1px solid #e5e7eb;
+}
+
+.support-description {
+ font-size: 0.875rem;
+ color: #374151;
+ margin-bottom: 1rem;
+}
+
+.support-buttons {
+ display: flex;
+ flex-direction: column;
+ gap: 0.5rem;
+}
+
+.support-button {
+ width: 100%;
+ background-color: white;
+ padding: 0.75rem;
+ border-radius: 0.5rem;
+ box-shadow: 0 1px 2px 0 rgba(0, 0, 0, 0.05);
+ display: flex;
+ align-items: center;
+ border: none;
+ cursor: pointer;
+ transition: background-color 0.2s;
+}
+
+.support-button:hover {
+ background-color: #f3f4f6;
+}
+
+.support-button-icon {
+ margin-right: 0.75rem;
+}
+
+.support-button-text {
+ font-size: 0.875rem;
+}
+
+/* Offers Panel */
+.offers-panel {
+ padding: 1rem;
+ background-color: #f9fafb;
+ border-bottom: 1px solid #e5e7eb;
+ text-align: center;
+}
+
+.offers-text {
+ color: #6b7280;
+}
+
+/* FAQ Panel */
+.faq-panel {
+ padding: 1rem;
+ background-color: #f9fafb;
+ border-bottom: 1px solid #e5e7eb;
+}
+
+.faq-video-section {
+ margin-bottom: 1rem;
+}
+
+.faq-video-title {
+ font-size: 0.875rem;
+ font-weight: 500;
+ margin-bottom: 0.5rem;
+}
+
+.faq-video-container {
+ background-color: white;
+ padding: 1rem;
+ border-radius: 0.5rem;
+ text-align: center;
+}
+
+.faq-video-icon {
+ width: 4rem;
+ height: 4rem;
+ background-color: #fef2f2;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ margin: 0 auto 0.5rem;
+}
+
+.faq-video-text {
+ font-size: 0.75rem;
+ color: #6b7280;
+}
+
+.faq-items {
+ display: flex;
+ flex-direction: column;
+ gap: 0.5rem;
+}
+
+.faq-item {
+ background-color: white;
+ border-radius: 0.5rem;
+ overflow: hidden;
+}
+
+.faq-question-button {
+ width: 100%;
+ padding: 0.75rem;
+ text-align: left;
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+ background: none;
+ border: none;
+ cursor: pointer;
+ transition: background-color 0.2s;
+}
+
+.faq-question-button:hover {
+ background-color: #f9fafb;
+}
+
+.faq-question-text {
+ font-size: 0.875rem;
+ font-weight: 500;
+}
+
+.faq-answer {
+ padding: 0 0.75rem 0.75rem;
+}
+
+.faq-answer-text {
+ font-size: 0.75rem;
+ color: #6b7280;
+}
+
+/* Tab Styles */
+.tab-container {
+ display: flex;
+}
+
+.tab-button {
+ flex: 1;
+ padding: 0.75rem 0.5rem;
+ font-size: 0.75rem;
+ font-weight: 500;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: none;
+ cursor: pointer;
+ transition: all 0.2s;
+}
+
+.tab-button-icon {
+ margin-right: 0.25rem;
+}
+
+.tab-button-active {
+ background-color: #ef4444;
+ color: white;
+}
+
+.tab-button-inactive {
+ background-color: #fca5a5;
+ color: white;
+}
+
+.tab-button-inactive:hover {
+ background-color: #f87171;
+}
+
+/* Tab Content */
+.tab-content {
+ padding: 1rem;
+}
+
+.card-logos {
+ display: flex;
+ justify-content: center;
+ gap: 0.5rem;
+ margin-bottom: 1rem;
+}
+
+.card-logo {
+ width: 3rem;
+ height: 2rem;
+ border-radius: 0.25rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ font-size: 0.75rem;
+ font-weight: bold;
+ color: white;
+}
+
+.card-logo-visa {
+ background-color: #1e3a8a;
+}
+.card-logo-mc {
+ background-color: #ef4444;
+}
+.card-logo-amex {
+ background-color: #2563eb;
+}
+.card-logo-dci {
+ background-color: #1d4ed8;
+}
+
+/* Form Styles */
+.form-group {
+ display: flex;
+ flex-direction: column;
+ gap: 1rem;
+}
+
+.input-container {
+ position: relative;
+}
+
+.form-input {
+ width: 100%;
+ padding: 0.75rem;
+ border: 1px solid #d1d5db;
+ border-radius: 0.5rem;
+ font-size: 1rem;
+ transition: all 0.2s;
+}
+
+.form-input:focus {
+ outline: none;
+ border-color: #ef4444;
+ box-shadow: 0 0 0 2px rgba(239, 68, 68, 0.2);
+}
+
+.form-input-with-icon {
+ padding-left: 2.5rem;
+}
+
+.form-input-with-button {
+ padding-right: 5rem;
+}
+
+.input-icon {
+ position: absolute;
+ left: 0.75rem;
+ top: 50%;
+ transform: translateY(-50%);
+ color: #9ca3af;
+}
+
+.input-button {
+ position: absolute;
+ right: 0.5rem;
+ top: 50%;
+ transform: translateY(-50%);
+ background-color: #ef4444;
+ color: white;
+ padding: 0.25rem 0.75rem;
+ border-radius: 0.25rem;
+ font-size: 0.875rem;
+ border: none;
+ cursor: pointer;
+ transition: background-color 0.2s;
+}
+
+.input-button:hover {
+ background-color: #dc2626;
+}
+
+.form-grid {
+ display: grid;
+ grid-template-columns: 1fr 1fr;
+ gap: 1rem;
+}
+
+.checkbox-container {
+ display: flex;
+ align-items: center;
+}
+
+.checkbox {
+ margin-right: 0.5rem;
+}
+
+.checkbox-label {
+ font-size: 0.875rem;
+ color: #374151;
+}
+
+.terms-text {
+ font-size: 0.75rem;
+ color: #6b7280;
+}
+
+.terms-link {
+ color: #3b82f6;
+ cursor: pointer;
+}
+
+/* Info Panels */
+.info-panel {
+ background-color: #eff6ff;
+ padding: 1rem;
+ border-radius: 0.5rem;
+}
+
+.info-text {
+ font-size: 0.875rem;
+ color: #1d4ed8;
+}
+
+.skip-button {
+ color: #f59e0b;
+ background: none;
+ border: none;
+ font-size: 0.875rem;
+ cursor: pointer;
+ transition: color 0.2s;
+}
+
+.skip-button:hover {
+ color: #d97706;
+}
+
+/* Payment Button */
+.payment-button-container {
+ padding: 1rem;
+ background-color: #f9fafb;
+ border-top: 1px solid #e5e7eb;
+}
+
+.payment-button {
+ width: 100%;
+ background-color: #6b7280;
+ color: white;
+ padding: 1rem;
+ border-radius: 0.5rem;
+ font-weight: 600;
+ font-size: 1.125rem;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ border: none;
+ cursor: pointer;
+ transition: background-color 0.2s;
+}
+
+.payment-button:hover {
+ background-color: #4b5563;
+}
+
+.payment-button-icon {
+ margin-right: 0.5rem;
+}
+
+/* Utility Classes */
+.text-center {
+ text-align: center;
+}
+.mb-1 {
+ margin-bottom: 0.25rem;
+}
+.mb-2 {
+ margin-bottom: 0.5rem;
+}
+.mb-4 {
+ margin-bottom: 1rem;
+}
+.mr-1 {
+ margin-right: 0.25rem;
+}
+.mr-2 {
+ margin-right: 0.5rem;
+}
+.mr-3 {
+ margin-right: 0.75rem;
+}
+.mt-1 {
+ margin-top: 0.25rem;
+}
+
+/* Responsive Design */
+@media (max-width: 640px) {
+ .payment-modal-overlay {
+  padding: 0.5rem;
+ }
+
+ .payment-modal-container {
+  max-height: 95vh;
+ }
+
+ .payment-modal-header {
+  padding: 0.75rem;
+ }
+
+ .tab-content {
+  padding: 0.75rem;
+ }
+}
+
+/* Animation Classes */
+.fade-in {
+ animation: fadeIn 0.3s ease-in-out;
+}
+
+@keyframes fadeIn {
+ from {
+  opacity: 0;
+  transform: translateY(-10px);
+ }
+ to {
+  opacity: 1;
+  transform: translateY(0);
+ }
+}

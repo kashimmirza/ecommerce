@@ -1,0 +1,251 @@
+/**
+ * Define the t4s_bg_vid_html5 class
+ *
+ * @format
+ */
+
+/* Video Section Styling */
+.t4s_bg_vid_html5 {
+ width: 100%;
+ height: auto;
+ display: block; /* Ensures the video does not overlap other elements */
+ object-fit: cover; /* Ensures the video scales without distortion */
+ position: relative; /* Keeps the video properly aligned in the layout */
+}
+
+.hero {
+ height: 100vh;
+ background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+ display: flex;
+}
+.video-section {
+ height: 80vh;
+ background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+ display: flex;
+}
+
+.svg-container {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ margin: 20px 0;
+ background-color: #333;
+ padding: 20px;
+ border-radius: 10px;
+}
+.svg-button {
+ position: fixed;
+ bottom: 20px;
+ left: 20px;
+ width: 60px;
+ height: 60px;
+ background-color: #25d366;
+ border: none;
+ border-radius: 50%;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+ transition: transform 0.3s ease, box-shadow 0.3s ease;
+ cursor: pointer;
+ z-index: 1000;
+}
+.svg-button svg {
+ width: 28px;
+ height: 28px;
+ fill: #fff;
+}
+
+@keyframes bounce {
+ 0%,
+ 20%,
+ 50%,
+ 80%,
+ 100% {
+  transform: translateY(0);
+ }
+ 40% {
+  transform: translateY(-10px);
+ }
+ 60% {
+  transform: translateY(-5px);
+ }
+}
+.svg-container svg {
+ width: 32px;
+ height: 32px;
+}
+/* Gift Card Section */
+.gift-card-section {
+ padding: 16px;
+ background-color: #f8f9fa;
+ text-align: center;
+ margin: 32px 0;
+}
+
+.gift-card-heading {
+ font-size: 2rem;
+ font-weight: bold;
+ margin-bottom: 16px;
+}
+
+.gift-card-description {
+ color: #6c757d;
+ margin-bottom: 16px;
+}
+
+.gift-card-card {
+ margin: 16px auto;
+ max-width: 600px;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ background-color: #ffffff;
+}
+
+.gift-card-button {
+ text-transform: none;
+ border-radius: 8px;
+ margin-top: 16px;
+ padding: 10px 20px;
+ font-size: 1rem;
+}
+
+/* Branding and Marketing Section */
+.branding-section {
+ display: flex;
+ justify-content: space-between;
+ flex-wrap: wrap;
+ gap: 16px;
+ padding: 32px 16px;
+ background-color: #e3f2fd;
+}
+
+.branding-card {
+ flex: 1 1 calc(33.333% - 16px);
+ padding: 16px;
+ text-align: center;
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+ background-color: #ffffff;
+ border-radius: 8px;
+ transition: transform 0.3s ease-in-out;
+}
+
+.branding-card:hover {
+ transform: translateY(-5px);
+}
+
+.branding-icon {
+ font-size: 2rem;
+ color: #1976d2;
+ margin-bottom: 16px;
+}
+
+.branding-heading {
+ font-size: 1.25rem;
+ font-weight: bold;
+ margin-bottom: 8px;
+}
+
+.branding-description {
+ color: #6c757d;
+}
+
+/* Newsletter Section Styling */
+.newsletter-section {
+ padding: 32px;
+ background-color: #f1f1f1;
+ text-align: center;
+}
+
+.newsletter-heading {
+ font-size: 2rem;
+ font-weight: bold;
+ margin-bottom: 16px;
+}
+
+.newsletter-input {
+ padding: 10px;
+ width: 60%;
+ max-width: 400px;
+ border: 1px solid #ddd;
+ border-radius: 4px;
+ margin-right: 8px;
+}
+
+.newsletter-button {
+ padding: 10px 20px;
+ background-color: #1976d2;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ font-size: 1rem;
+ cursor: pointer;
+ transition: background-color 0.3s ease-in-out;
+}
+
+.newsletter-button:hover {
+ background-color: #145a99;
+}
+.container {
+ /* Parent container styling example */
+ position: relative; /* Ensure child elements are positioned relative to this */
+}
+
+/* shop.css */
+.back-to-top {
+ position: fixed;
+ bottom: 40px;
+ right: 40px;
+ background-color: #1e88e5;
+ border: none;
+ border-radius: 50%;
+ padding: 18px;
+ cursor: pointer;
+ z-index: 9999;
+ box-shadow: 0 6px 15px rgba(0, 0, 0, 0.25);
+ transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.back-to-top:hover {
+ transform: scale(1.15);
+ background-color: #1565c0;
+}
+
+.back-to-top svg {
+ width: 28px;
+ height: 28px;
+ fill: #fff;
+}
+.back-to-top {
+ opacity: 0;
+ visibility: hidden;
+ transition: opacity 0.5s ease, visibility 0.5s;
+}
+
+.back-to-top.show {
+ opacity: 1;
+ visibility: visible;
+}
+.shop-container section {
+ padding: 60px 20px;
+}
+
+.video-section {
+ width: 100%;
+ height: 80vh;
+ background: linear-gradient(180deg, #fde1ff, #e1ffea22 60%);
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ position: relative;
+ overflow: hidden;
+}
+
+.video-section video {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ position: absolute;
+ top: 0;
+ left: 0;
+ z-index: -1;
+}

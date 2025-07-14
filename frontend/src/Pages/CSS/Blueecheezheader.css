@@ -1,0 +1,270 @@
+/**
+ * --- Global Header Layout & Structure (from original HTML) ---
+ *
+ * @format
+ */
+
+.t4s-header__wrapper {
+ position: relative;
+ /* Add sticky properties here if needed */
+ background-color: #fff; /* Ensure header has a background */
+ border-bottom: 1px solid #eee; /* Light separator */
+ z-index: 100; /* Ensure header is on top */
+}
+
+.t4s-container {
+ max-width: 1200px; /* Or your preferred container width */
+ margin-left: auto;
+ margin-right: auto;
+ padding: 0 15px; /* Adjust padding as needed */
+}
+
+.t4s-row {
+ display: flex;
+ flex-wrap: wrap;
+ align-items: center; /* Vertically align items in the row */
+ min-height: 70px; /* Minimum height for the header row */
+}
+
+.t4s-col-item {
+ /* Basic flex item properties for column layout */
+ flex-grow: 1;
+ flex-shrink: 0;
+}
+
+/* Specific column widths - adapt to your grid system */
+.t4s-col-lg-2 {
+ flex-basis: 16.6666%;
+ max-width: 16.6666%;
+}
+.t4s-col-lg-auto {
+ flex-basis: auto;
+ max-width: none;
+}
+.t4s-col-3 {
+ flex-basis: 25%;
+ max-width: 25%;
+}
+.t4s-col-4 {
+ flex-basis: 33.3333%;
+ max-width: 33.3333%;
+}
+.t4s-col-6 {
+ flex-basis: 50%;
+ max-width: 50%;
+}
+
+/* Utilities (from original HTML - keep minimal) */
+.t4s-pr {
+ position: relative;
+}
+.t4s-pa {
+ position: absolute;
+}
+.t4s-lh-1 {
+ line-height: 1;
+}
+.t4s-d-inline-block {
+ display: inline-block;
+}
+.t4s-d-flex {
+ display: flex;
+}
+.t4s-align-items-center {
+ align-items: center;
+}
+.t4s-text-center {
+ text-align: center;
+}
+.t4s-text-end {
+ text-align: end;
+}
+.t4s-d-none {
+ display: none !important;
+} /* Use !important sparingly */
+.t4s-dn {
+ display: none;
+} /* For elements meant to be hidden by default */
+
+/* --- Logo Styling --- */
+.t4s-header__logo img {
+ display: block;
+ max-width: 100%;
+ height: auto;
+}
+
+/* Specific logo visibility based on device/sticky state */
+.header__normal-logo {
+ display: block;
+} /* Default desktop logo */
+.header__sticky-logo,
+.header__mobile-logo {
+ display: none;
+} /* Hide initially */
+
+/* Example for sticky header (requires JS to add a class like 'is-sticky') */
+/* .t4s-header__wrapper.is-sticky .header__normal-logo { display: none; } */
+/* .t4s-header__wrapper.is-sticky .header__sticky-logo { display: block; } */
+
+/* --- Main Navigation Styling --- */
+.t4s-navigation .t4s-nav__ul {
+ list-style: none;
+ margin: 0;
+ padding: 0;
+ gap: 25px; /* Adjust spacing between main nav items */
+}
+
+.blucheez-nav-item {
+ position: relative; /* Essential for correct menu positioning */
+ display: flex;
+ align-items: center;
+}
+
+.blucheez-nav-button {
+ color: #333 !important; /* Default text color for nav items */
+ font-weight: 600 !important;
+ text-transform: uppercase !important;
+ padding: 10px 0 !important; /* Adjust padding for visual alignment */
+ min-width: unset !important; /* Remove min-width from MUI Button */
+ font-size: 15px !important;
+ letter-spacing: 0.5px !important;
+ transition: color 0.3s ease-in-out !important;
+}
+
+.blucheez-nav-button:hover {
+ color: #c70039 !important; /* Blucheez red on hover */
+ background-color: transparent !important; /* Ensure no background on hover */
+}
+
+/* --- MUI Menu Overrides (for dropdown panels) --- */
+
+/* Targets the Paper component (the actual dropdown box) */
+.blucheez-menu-paper.MuiPopover-paper.MuiMenu-paper {
+ box-shadow: 0px 5px 15px rgba(0, 0, 0, 0.08); /* More refined shadow */
+ border-radius: 8px; /* Rounded corners */
+ margin-top: 5px; /* Small space between button and menu */
+ min-width: 200px;
+ background-color: #fff;
+ border: 1px solid #eee; /* Subtle border */
+ overflow: visible; /* Allows nested menus to "pop out" more naturally */
+}
+
+/* General style for all MuiMenuItem elements */
+.blucheez-menu-item.MuiMenuItem-root {
+ padding: 10px 20px;
+ font-size: 14px;
+ color: #555;
+ transition: background-color 0.2s ease-in-out, color 0.2s ease-in-out;
+ white-space: nowrap; /* Prevent text wrapping */
+ display: flex;
+ justify-content: space-between;
+ align-items: center;
+}
+
+/* Crucial: Override any aggressive MUI default hover if needed, or ensure it uses theme */
+/* By default, MUI's MenuItem has a light gray hover. If you see black, it's likely
+     an older or conflicting CSS rule. The `sx` prop in JSX is generally safer for
+     specific MUI component hover styles. */
+.blucheez-menu-item.MuiMenuItem-root:hover {
+ background-color: #fcebeb; /* Light red/pinkish tint on hover */
+ color: #c70039; /* Blucheez red text on hover */
+}
+
+/* Style for menu items that are parents to nested menus */
+.blucheez-menu-item.has-children {
+ font-weight: 500; /* Slightly bolder for parent items */
+}
+
+/* Arrow icon within menu items */
+.blucheez-menu-item svg {
+ margin-left: 10px;
+ font-size: 0.6em;
+ color: #888;
+ transition: transform 0.3s ease-in-out, color 0.2s ease-in-out;
+}
+
+.blucheez-menu-item:hover svg {
+ color: #c70039; /* Change arrow color on hover */
+}
+
+/* Rotate arrow for open nested menus */
+.blucheez-menu-item.has-children .MuiSvgIcon-root[data-open="true"] {
+ transform: rotate(90deg); /* Rotate arrow when nested menu is open */
+}
+
+/* Specific style for "View All" item */
+.blucheez-menu-item.view-all {
+ font-weight: bold;
+ color: #c70039;
+ border-bottom: 1px solid #eee;
+ padding-bottom: 12px; /* A bit more space below */
+ margin-bottom: 8px; /* Space between "View All" and next category */
+}
+
+/* Styles for nested menu positioning */
+/* When a sub-menu opens, its anchorOrigin is at the bottom-left of its parent MenuItem.
+     To make it appear to the right, we adjust transformOrigin and PaperProps sx in JS. */
+/* No specific CSS needed here if MUI's positioning handles it well, but keeping this
+     as a reminder if you needed to fine-tune. */
+
+/* --- Icon Section Styling --- */
+.t4s-site-nav__icons {
+ gap: 15px; /* Spacing between icons */
+}
+
+.t4s-site-nav__icon .MuiIconButton-root {
+ color: #333; /* Icon color */
+ transition: color 0.3s ease-in-out;
+}
+
+.t4s-site-nav__icon .MuiIconButton-root:hover {
+ color: #c70039; /* Icon hover color */
+}
+
+/* Style for SVG icons themselves */
+.t4s-icon {
+ width: 24px; /* Standard icon size */
+ height: 24px;
+ display: block; /* Ensures proper sizing */
+}
+
+/* Badge styling (for cart/wishlist counts) */
+.MuiBadge-root .MuiBadge-badge {
+ background-color: #c70039; /* Blucheez red for badge background */
+ color: #fff;
+ font-size: 0.75rem;
+ min-width: 18px;
+ height: 18px;
+ padding: 0 4px;
+ border-radius: 9px;
+ top: 0;
+ right: 0;
+ transform: scale(1) translate(50%, -50%); /* Adjust position if needed */
+}
+
+/* Hide some elements on smaller screens */
+@media (max-width: 991px) {
+ .t4s-d-lg-block {
+  display: none !important;
+ }
+ .t4s-d-lg-none {
+  display: block !important;
+ }
+ .header__normal-logo {
+  display: none;
+ }
+ .header__mobile-logo {
+  display: block;
+ }
+ .t4s-site-nav__account,
+ .t4s-site-nav__heart {
+  display: none !important; /* Hide account/wishlist on mobile by default */
+ }
+}
+
+/* Adjustments for medium devices */
+@media (min-width: 768px) and (max-width: 991px) {
+ .t4s-d-md-inline-block {
+  display: inline-block !important; /* Show account/wishlist on medium devices */
+ }
+}

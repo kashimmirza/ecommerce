@@ -1,0 +1,185 @@
+/**
+ * Main container for the checkout page
+ *
+ * @format
+ */
+
+#checkout-main {
+ max-width: 800px;
+ margin: 0 auto;
+ padding: 40px;
+ background-color: #ffffff;
+ border-radius: 8px;
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1);
+ display: flex;
+ flex-direction: column;
+ gap: 40px; /* Space between the form and the order summary */
+}
+
+/* Header styling */
+h1 {
+ font-size: 2rem;
+ color: #333;
+ text-align: center;
+ margin-bottom: 30px;
+}
+
+/* Styling for the form container */
+.address-form {
+ display: flex;
+ flex-direction: column;
+ gap: 20px;
+}
+
+.address-form label {
+ font-size: 16px;
+ font-weight: 600;
+ color: #333;
+ margin-bottom: 5px;
+}
+
+.address-form input,
+.address-form select,
+.address-form .radio-group {
+ width: 100%;
+ padding: 12px;
+ margin-bottom: 20px;
+ border-radius: 6px;
+ border: 1px solid #ccc;
+ font-size: 14px;
+ background-color: #f9f9f9;
+ transition: all 0.3s ease;
+}
+
+.address-form input:focus,
+.address-form select:focus {
+ border-color: #4caf50;
+ outline: none;
+ background-color: #ffffff;
+}
+
+.address-form .radio-group {
+ display: flex;
+ gap: 15px;
+}
+
+.address-form .radio-group input[type="radio"] {
+ accent-color: #4caf50;
+}
+
+.address-form .radio-group label {
+ font-size: 14px;
+ color: #666;
+ display: flex;
+ align-items: center;
+ gap: 8px;
+}
+
+.address-form .radio-group label:hover {
+ color: #4caf50;
+}
+
+.address-form select {
+ padding: 12px;
+ border-radius: 6px;
+ background-color: #fff;
+ border: 1px solid #ccc;
+}
+
+/* Styling for the payment method radio buttons */
+.payment-method {
+ margin-top: 20px;
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+}
+
+.payment-method label {
+ font-size: 16px;
+ font-weight: 600;
+ color: #333;
+}
+
+.payment-method .radio-group {
+ display: flex;
+ gap: 15px;
+ align-items: center;
+}
+
+.payment-method .radio-group input[type="radio"] {
+ accent-color: #4caf50;
+}
+
+.payment-method .radio-group label {
+ font-size: 14px;
+ color: #666;
+ display: flex;
+ align-items: center;
+ gap: 8px;
+}
+
+.payment-method .radio-group label:hover {
+ color: #4caf50;
+}
+
+/* Delivery Option Section */
+.delivery-option {
+ font-size: 16px;
+ font-weight: 600;
+ color: #333;
+ margin-top: 15px;
+ text-align: center;
+}
+
+.delivery-option span {
+ color: #4caf50;
+ font-weight: bold;
+}
+
+/* Styling the order summary section */
+.order-summary {
+ background-color: #f9f9f9;
+ padding: 20px;
+ border-radius: 8px;
+ box-shadow: 0 2px 6px rgba(0, 0, 0, 0.1);
+ display: flex;
+ flex-direction: column;
+ gap: 15px;
+}
+
+.order-summary h2 {
+ font-size: 1.6rem;
+ color: #333;
+ margin-bottom: 15px;
+}
+
+.order-summary p {
+ font-size: 16px;
+ color: #555;
+}
+
+.order-summary .summary-details {
+ font-weight: bold;
+ color: #333;
+ margin-top: 10px;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 768px) {
+ #checkout-main {
+  padding: 20px;
+ }
+
+ h1 {
+  font-size: 1.8rem;
+ }
+
+ .address-form input,
+ .address-form select {
+  padding: 10px;
+ }
+
+ .order-summary p {
+  font-size: 14px;
+ }
+}

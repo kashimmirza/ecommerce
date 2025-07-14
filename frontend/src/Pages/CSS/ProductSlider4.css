@@ -1,0 +1,54 @@
+/** @format */
+
+.banner-grid {
+ display: grid;
+ grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+ gap: 16px;
+ padding: 20px;
+}
+
+.banner-item {
+ overflow: hidden;
+ position: relative;
+ border-radius: 8px;
+ transition: transform 0.3s ease;
+}
+
+.banner-item:hover {
+ transform: scale(1.02);
+}
+
+.banner-link {
+ text-decoration: none;
+ display: block;
+ height: 100%;
+ position: relative;
+}
+
+.banner-inner {
+ position: relative;
+ width: 100%;
+ height: 100%;
+}
+
+.banner-image {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ display: block;
+ border-radius: 8px;
+}
+
+.banner-content {
+ position: absolute;
+ bottom: 15px;
+ left: 20px;
+ color: white;
+ z-index: 2;
+ text-shadow: 1px 1px 3px rgba(0, 0, 0, 0.6);
+}
+
+.banner-title {
+ font-size: 20px;
+ font-weight: 600;
+}

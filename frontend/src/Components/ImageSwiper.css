@@ -1,0 +1,85 @@
+/** @format */
+
+.t4s-img-as-bg {
+ object-fit: cover;
+ width: 100%;
+ height: auto;
+}
+
+.t4s-d-none {
+ display: none;
+}
+
+@media (min-width: 768px) {
+ .t4s-d-md-block {
+  display: block;
+ }
+}
+
+.-t4s-lz--fadeIn {
+ animation: fadeIn 0.8s ease-in-out forwards;
+ opacity: 0;
+}
+
+.t4s-slide-zoom-out {
+ transform: scale(1);
+ transition: transform 0.5s ease;
+}
+.t4s-slide-zoom-out:hover {
+ transform: scale(1.05);
+}
+
+/* Fade In Animation */
+@keyframes fadeIn {
+ to {
+  opacity: 1;
+ }
+}
+.image-swiper-wrapper {
+ width: 100%;
+ max-width: 1500px;
+ margin: 0 auto;
+ overflow: hidden;
+ position: relative;
+}
+
+.swiper-slide-inner {
+ width: 100%;
+ height: 100%;
+ position: relative;
+}
+
+.swiper-slide-inner img {
+ width: 100%;
+ height: auto;
+ object-fit: cover;
+}
+
+/* Optional: make navigation arrows bigger */
+.swiper-button-next,
+.swiper-button-prev {
+ color: black;
+ width: 50px;
+ height: 50px;
+}
+
+/* Optional: better look for preloader */
+.swiper-lazy-preloader {
+ width: 40px;
+ height: 40px;
+ margin: auto;
+ top: 50%;
+ left: 50%;
+ position: absolute;
+ transform: translate(-50%, -50%);
+ border: 4px solid rgba(0, 0, 0, 0.2);
+ border-top-color: #000;
+ border-radius: 50%;
+ animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+ to {
+  transform: translate(-50%, -50%) rotate(360deg);
+ }
+}

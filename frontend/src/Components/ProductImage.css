@@ -1,0 +1,132 @@
+/** @format */
+
+.product-image-container {
+ position: relative;
+ display: inline-block;
+ width: 300px; /* Adjust as needed */
+ height: 300px; /* Adjust as needed */
+ overflow: hidden;
+ border: 1px solid #ddd; /* Optional border for better visibility */
+ border-radius: 10px; /* Optional rounded corners */
+ box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1); /* Optional shadow for depth */
+}
+
+.product-main-img,
+.product-hover-img {
+ position: absolute;
+ top: 0;
+ left: 0;
+ width: 100%;
+ height: 100%;
+ object-fit: cover; /* Ensures images fill the container properly */
+ transition: transform 0.5s ease, opacity 0.3s ease-in-out;
+}
+
+.product-main-img {
+ z-index: 1;
+}
+
+.product-hover-img {
+ opacity: 0;
+ transform: scale(1.2); /* Start slightly zoomed-in */
+ z-index: 2;
+}
+
+.product-image-container:hover .product-hover-img {
+ opacity: 1;
+ transform: scale(1); /* Zoom out to normal size */
+}
+
+.product-image-container:hover .product-main-img {
+ opacity: 0;
+ transform: scale(0.9); /* Slightly shrink on hover */
+}
+
+/* Loading state for lazy-loaded images */
+.loading {
+ opacity: 0.5;
+ transition: opacity 0.3s ease-in-out;
+}
+
+.loaded {
+ opacity: 1;
+ transition: opacity 0.3s ease-in-out;
+}
+
+/* Smooth transition effect for hover images */
+@keyframes fadeIn {
+ from {
+  opacity: 0;
+  transform: scale(1.1); /* Optional zoom-in effect during fade */
+ }
+ to {
+  opacity: 1;
+  transform: scale(1);
+ }
+}
+
+.product-hover-img.hover-img-0 {
+ animation: fadeIn 0.5s ease-in-out;
+}
+
+/* Custom classes for lazy loading (optional) */
+.lazyautosizes {
+ transition: opacity 0.3s ease;
+}
+
+.lazyloadt4sed {
+ transition: opacity 0.3s ease-in-out;
+}
+
+/* Optional custom class for images with the data-srcset attribute */
+.product-main-img[data-srcset] {
+ transition: opacity 0.3s ease-in-out;
+}
+
+.product-hover-img[data-srcset] {
+ transition: opacity 0.3s ease-in-out;
+}
+
+/* Make image behave like background (cover + full) */
+.t4s-img-as-bg {
+ object-fit: cover;
+ width: 100%;
+ height: 100%;
+}
+
+/* Hide element by default */
+.t4s-d-none {
+ display: none !important;
+}
+
+/* Show element on medium screens and above */
+@media (min-width: 768px) {
+ .t4s-d-md-block {
+  display: block !important;
+ }
+}
+
+/* Fade-in animation for lazy-loaded images */
+.-t4s-lz--fadeIn {
+ opacity: 0;
+ transition: opacity 0.5s ease-in-out;
+}
+
+.-t4s-lz--fadeIn.loaded,
+.-t4s-lz--fadeIn.swiper-lazy-loaded {
+ opacity: 1;
+}
+
+/* Zoom-out animation for slide */
+.t4s-slide-zoom-out {
+ transition: transform 0.5s ease;
+}
+
+.swiper-slide-active .t4s-slide-zoom-out {
+ transform: scale(1);
+}
+
+.swiper-slide-prev .t4s-slide-zoom-out,
+.swiper-slide-next .t4s-slide-zoom-out {
+ transform: scale(0.95); /* Slight zoom out for adjacent slides */
+}

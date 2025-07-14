@@ -1,0 +1,13 @@
+﻿{
+  "function-architecture": "x86_64",
+  "function-runtime": "dotnet8",
+  "function-handler": "ApiOnLamda",
+  "BinaryMediaTypes": "multipart/form-data",
+  "environment-variables": {
+    "ANNOTATIONS_HANDLER": "FunctionHandler"
+  },
+  "use-container-for-build": false,
+  "region": "us-east-1", // Use your desired region
+  "memory-size": 256,
+  "timeout": 30
+}

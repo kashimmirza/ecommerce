@@ -1,0 +1,69 @@
+/**
+ * Container for the entire marketing opt-in section
+ *
+ * @format
+ */
+
+.marketing-opt-in {
+ margin: 20px 0;
+ padding: 10px;
+ background-color: #f9f9f9;
+ border-radius: 8px;
+ border: 1px solid #e0e0e0;
+}
+
+/* Flexbox container for the checkbox and label */
+.opt-in-container {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+/* Styling for the checkbox input */
+.checkbox-input {
+ width: 20px;
+ height: 20px;
+ cursor: pointer;
+ accent-color: #007bff; /* Customize checkbox color for supported browsers */
+}
+
+/* Styling for the checkbox label */
+.checkbox-label {
+ font-size: 16px;
+ color: #555555;
+ display: flex;
+ align-items: center;
+ gap: 5px;
+ cursor: pointer;
+}
+
+/* Styling for the checkmark icon */
+.checkmark-icon {
+ width: 18px;
+ height: 18px;
+ color: #007bff;
+ visibility: hidden; /* Hidden by default */
+}
+
+/* Show the checkmark icon when the checkbox is checked */
+.checkbox-input:checked + .checkbox-label .checkmark-icon {
+ visibility: visible;
+}
+
+/* Hover effect for the label */
+.checkbox-label:hover {
+ color: #333333;
+}
+
+/* Responsiveness for smaller screens */
+@media (max-width: 600px) {
+ .opt-in-container {
+  flex-direction: column;
+  align-items: flex-start;
+  gap: 8px;
+ }
+
+ .checkbox-label {
+  font-size: 14px;
+ }
+}

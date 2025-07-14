@@ -1,0 +1,19 @@
+/** @format */
+
+.hero-banner {
+ width: 100vw;
+ height: 100vh;
+ overflow: hidden;
+ margin: 0 auto;
+ padding: 0;
+ display: flex;
+ align-items: center;
+ justify-content: center;
+}
+
+.hero-image {
+ width: 100%;
+ height: 100%;
+ object-fit: cover;
+ display: block;
+}

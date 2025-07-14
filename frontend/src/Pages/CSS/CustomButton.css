@@ -1,0 +1,78 @@
+/**
+ * Base button styles
+ *
+ * @format
+ */
+
+.t4s-btn {
+ display: inline-block;
+ text-align: center;
+ cursor: pointer;
+ text-decoration: none;
+ border: var(--button-bdr, 2px) solid var(--pri-cl, #000);
+ padding: 0 var(--button-pd-lr, 35px);
+ min-height: var(--button-mh, 50px);
+ line-height: var(--button-mh, 50px);
+ font-size: var(--button-fs, 24px);
+ font-weight: var(--button-fw, 300);
+ letter-spacing: var(--button-ls, 0px);
+ color: var(--second-cl, #fff);
+ background-color: var(--pri-cl, #ffffff55);
+ transition: all 0.3s ease;
+}
+
+.t4s-btn:hover {
+ background-color: var(--pri-cl-hover, #ce3241);
+ color: var(--second-cl-hover, #fff);
+}
+
+/* Optional animation */
+.t4s-animation-fadeInUp {
+ opacity: 0;
+ animation: fadeInUp 0.8s ease forwards;
+ animation-delay: var(--delay-animation, 0s);
+}
+
+@keyframes fadeInUp {
+ from {
+  opacity: 0;
+  transform: translateY(20px);
+ }
+ to {
+  opacity: 1;
+  transform: translateY(0);
+ }
+}
+
+/* Responsive mobile overrides */
+@media (max-width: 768px) {
+ .t4s-btn {
+  font-size: var(--button-fs-mb, 16px);
+  min-height: var(--button-mh-mb, 32px);
+  line-height: var(--button-mh-mb, 32px);
+  padding: 0 var(--button-pd-lr-mb, 15px);
+  letter-spacing: var(--button-ls-mb, 0px);
+  margin-bottom: var(--button-mgb-mb, 0px);
+ }
+}
+
+/* Other utility classes */
+.t4s-pe-auto {
+ pointer-events: auto;
+}
+
+.t4s-fnt-fm-inherit {
+ font-family: inherit;
+}
+
+.t4s-hidden-mobile-false {
+ display: block;
+}
+
+.t4s-btn-style-default {
+ border-radius: 4px;
+}
+
+.t4s-btn-effect-fade {
+ transition: background-color 0.3s, color 0.3s;
+}

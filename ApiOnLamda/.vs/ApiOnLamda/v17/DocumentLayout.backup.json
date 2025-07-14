@@ -1,0 +1,466 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\ApiOnLamda\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\database\\firstobject.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:database\\firstobject.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:appsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\data\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:data\\databasehelper.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:controllers\\productcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:controllers\\menucontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\model\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:model\\menuitem.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\apionlamda.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:apionlamda.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\model\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:model\\productcolor.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:model\\product.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:controllers\\usercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\model\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:model\\productcategory.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\model\\productimageresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:model\\productimageresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\model\\uploadimagesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:model\\uploadimagesrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\model\\addcolorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:model\\addcolorrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\ApiOnLamda\\Controllers\\S3fileuploadController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|solutionrelative:Controllers\\S3fileuploadController.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\services\\s3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:services\\s3service.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\model\\menuitemraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:model\\menuitemraw.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\model\\productsizedetailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:model\\productsizedetailrequest.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:controllers\\cartcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\model\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:model\\baseresponse.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:controllers\\authenticationcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\publish\\apionlamda.deps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:publish\\apionlamda.deps.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\fontresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:fontresolver.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\controllers\\checkoutcontrollercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:controllers\\checkoutcontrollercontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\model\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:model\\image.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\model\\label.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:model\\label.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|d:\\apionlamda\\database\\firstobject.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame",
+      "RelativeMoniker": "D:0:0:{680BED3F-5CB6-42EB-9820-D152BB79CE48}|ApiOnLamda.csproj|solutionrelative:database\\firstobject.sql||{CC5D8DF0-88F4-4BB2-9DBB-B48CEE65C30A}|CodeFrame"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 8,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "Program.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Program.cs",
+              "RelativeDocumentMoniker": "Program.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Program.cs",
+              "RelativeToolTip": "Program.cs",
+              "ViewState": "AgIAALMAAAAAAAAAAAAAAE0AAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T03:51:57.578Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "MenuItemRaw.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Model\\MenuItemRaw.cs",
+              "RelativeDocumentMoniker": "Model\\MenuItemRaw.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Model\\MenuItemRaw.cs",
+              "RelativeToolTip": "Model\\MenuItemRaw.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T01:59:33.006Z",
+              "IsPinned": true
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:128:0:{1fc202d4-d401-403c-9834-5b218574bb67}"
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "DatabaseHelper.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Data\\DatabaseHelper.cs",
+              "RelativeDocumentMoniker": "Data\\DatabaseHelper.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Data\\DatabaseHelper.cs",
+              "RelativeToolTip": "Data\\DatabaseHelper.cs",
+              "ViewState": "AgIAAJ8BAAAAAAAAAAAowO0BAABJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T18:04:16.591Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "ApiOnLamda.csproj",
+              "DocumentMoniker": "D:\\ApiOnLamda\\ApiOnLamda.csproj",
+              "RelativeDocumentMoniker": "ApiOnLamda.csproj",
+              "ToolTip": "D:\\ApiOnLamda\\ApiOnLamda.csproj",
+              "RelativeToolTip": "ApiOnLamda.csproj",
+              "ViewState": "AgIAAE0AAAAAAAAAAADwv1kAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-04-07T06:24:37.316Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ProductController.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Controllers\\ProductController.cs",
+              "RelativeDocumentMoniker": "Controllers\\ProductController.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Controllers\\ProductController.cs",
+              "RelativeToolTip": "Controllers\\ProductController.cs",
+              "ViewState": "AgIAAFcBAAAAAAAAAAAIwF8BAAAIAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T18:04:16.389Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "appsettings.json",
+              "DocumentMoniker": "D:\\ApiOnLamda\\appsettings.json",
+              "RelativeDocumentMoniker": "appsettings.json",
+              "ToolTip": "D:\\ApiOnLamda\\appsettings.json",
+              "RelativeToolTip": "appsettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAABaAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T11:10:55.085Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "firstobject.sql ",
+              "DocumentMoniker": "D:\\ApiOnLamda\\database\\firstobject.sql",
+              "RelativeDocumentMoniker": "database\\firstobject.sql",
+              "ToolTip": "D:\\ApiOnLamda\\database\\firstobject.sql",
+              "RelativeToolTip": "database\\firstobject.sql",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000826|",
+              "WhenOpened": "2025-05-15T06:16:56.671Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "MenuController.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Controllers\\MenuController.cs",
+              "RelativeDocumentMoniker": "Controllers\\MenuController.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Controllers\\MenuController.cs",
+              "RelativeToolTip": "Controllers\\MenuController.cs",
+              "ViewState": "AgIAAG0AAAAAAAAAAAAkwHkAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T01:55:38.321Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "ProductColor.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Model\\ProductColor.cs",
+              "RelativeDocumentMoniker": "Model\\ProductColor.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Model\\ProductColor.cs",
+              "RelativeToolTip": "Model\\ProductColor.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-13T12:24:17.506Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Product.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Model\\Product.cs",
+              "RelativeDocumentMoniker": "Model\\Product.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Model\\Product.cs",
+              "RelativeToolTip": "Model\\Product.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAA0wBkAAAAZAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T14:33:47.334Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "ProductImageResponse.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Model\\ProductImageResponse.cs",
+              "RelativeDocumentMoniker": "Model\\ProductImageResponse.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Model\\ProductImageResponse.cs",
+              "RelativeToolTip": "Model\\ProductImageResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAIAAAACAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T10:09:06.854Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "MenuItem.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Model\\MenuItem.cs",
+              "RelativeDocumentMoniker": "Model\\MenuItem.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Model\\MenuItem.cs",
+              "RelativeToolTip": "Model\\MenuItem.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAMAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T02:00:34.887Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "UserController.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Controllers\\UserController.cs",
+              "RelativeDocumentMoniker": "Controllers\\UserController.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Controllers\\UserController.cs",
+              "RelativeToolTip": "Controllers\\UserController.cs",
+              "ViewState": "AgIAABkAAAAAAAAAAAAiwCIAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T03:13:06.551Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "ProductCategory.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Model\\ProductCategory.cs",
+              "RelativeDocumentMoniker": "Model\\ProductCategory.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Model\\ProductCategory.cs",
+              "RelativeToolTip": "Model\\ProductCategory.cs",
+              "ViewState": "AgIAACAAAAAAAAAAAAAgwAoAAAA0AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T14:49:22.166Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "UploadImagesRequest.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Model\\UploadImagesRequest.cs",
+              "RelativeDocumentMoniker": "Model\\UploadImagesRequest.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Model\\UploadImagesRequest.cs",
+              "RelativeToolTip": "Model\\UploadImagesRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T05:16:51.211Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "AddColorRequest.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Model\\AddColorRequest.cs",
+              "RelativeDocumentMoniker": "Model\\AddColorRequest.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Model\\AddColorRequest.cs",
+              "RelativeToolTip": "Model\\AddColorRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAuAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-15T07:43:13.786Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Label.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Model\\Label.cs",
+              "RelativeDocumentMoniker": "Model\\Label.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Model\\Label.cs",
+              "RelativeToolTip": "Model\\Label.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAApAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T02:01:45.895Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Image.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Model\\Image.cs",
+              "RelativeDocumentMoniker": "Model\\Image.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Model\\Image.cs",
+              "RelativeToolTip": "Model\\Image.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAnAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T02:02:45.086Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "ProductSizeDetailRequest.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Model\\ProductSizeDetailRequest.cs",
+              "RelativeDocumentMoniker": "Model\\ProductSizeDetailRequest.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Model\\ProductSizeDetailRequest.cs",
+              "RelativeToolTip": "Model\\ProductSizeDetailRequest.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAAFAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-12T15:14:28.825Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "AuthenticationController.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Controllers\\AuthenticationController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AuthenticationController.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Controllers\\AuthenticationController.cs",
+              "RelativeToolTip": "Controllers\\AuthenticationController.cs",
+              "ViewState": "AgIAAFEAAAAAAAAAAAAowFYAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-05-11T02:40:14.499Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "S3fileuploadController.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Controllers\\S3fileuploadController.cs",
+              "RelativeDocumentMoniker": "Controllers\\S3fileuploadController.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Controllers\\S3fileuploadController.cs",
+              "RelativeToolTip": "Controllers\\S3fileuploadController.cs",
+              "ViewState": "AgIAAAEAAAAAAAAAAAAgwBYAAABSAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-12T13:39:40.143Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "S3Service.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Services\\S3Service.cs",
+              "RelativeDocumentMoniker": "Services\\S3Service.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Services\\S3Service.cs",
+              "RelativeToolTip": "Services\\S3Service.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAFoAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-09T05:05:00.712Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "BaseResponse.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Model\\BaseResponse.cs",
+              "RelativeDocumentMoniker": "Model\\BaseResponse.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Model\\BaseResponse.cs",
+              "RelativeToolTip": "Model\\BaseResponse.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-15T10:09:23.605Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "ApiOnLamda.deps.json",
+              "DocumentMoniker": "D:\\ApiOnLamda\\publish\\ApiOnLamda.deps.json",
+              "RelativeDocumentMoniker": "publish\\ApiOnLamda.deps.json",
+              "ToolTip": "D:\\ApiOnLamda\\publish\\ApiOnLamda.deps.json",
+              "RelativeToolTip": "publish\\ApiOnLamda.deps.json",
+              "ViewState": "AgIAAFAFAAAAAAAAAAApwFkFAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2025-04-15T09:33:58.212Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "FontResolver.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\FontResolver.cs",
+              "RelativeDocumentMoniker": "FontResolver.cs",
+              "ToolTip": "D:\\ApiOnLamda\\FontResolver.cs",
+              "RelativeToolTip": "FontResolver.cs",
+              "ViewState": "AgIAAA0AAAAAAAAAAAAQwAQAAAAzAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-07T02:36:41.486Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "CartController.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Controllers\\CartController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CartController.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Controllers\\CartController.cs",
+              "RelativeToolTip": "Controllers\\CartController.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAGAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T18:04:16.43Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "CheckoutControllerController.cs",
+              "DocumentMoniker": "D:\\ApiOnLamda\\Controllers\\CheckoutControllerController.cs",
+              "RelativeDocumentMoniker": "Controllers\\CheckoutControllerController.cs",
+              "ToolTip": "D:\\ApiOnLamda\\Controllers\\CheckoutControllerController.cs",
+              "RelativeToolTip": "Controllers\\CheckoutControllerController.cs",
+              "ViewState": "AgIAAIAAAAAAAAAAAAAQwJAAAAAEAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-04-06T04:11:02.22Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

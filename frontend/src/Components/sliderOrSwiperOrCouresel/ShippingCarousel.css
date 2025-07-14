@@ -1,0 +1,102 @@
+/**
+ * General styling for the carousel container
+ *
+ * @format
+ */
+
+.t4s-row {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ width: 100%;
+ height: 60px; /* Adjust height as necessary */
+ background-color: #000; /* Default background color */
+ overflow: hidden;
+}
+
+.t4s-text-center {
+ text-align: center;
+}
+
+.t4s-slide-eff-fade {
+ animation: fadeInOut 10s infinite;
+}
+
+.t4s-slide-eff-translate {
+ animation: slideInOut 10s infinite;
+}
+
+/* Define flickity wrapper and its transitions */
+.flickityt4s {
+ width: 100%;
+ height: 100%;
+}
+
+.flickityt4s-enabled {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.flickityt4s-slider {
+ display: flex;
+ flex-direction: row;
+ justify-content: center;
+}
+
+.t4s-col-item {
+ position: relative;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ padding: 10px 20px;
+ background-color: transparent;
+ color: var(--text-cl, #ffffff);
+ font-size: var(--text-fs, 16px);
+ font-weight: var(--text-fw, 500);
+ letter-spacing: var(--text-ls, 0);
+ line-height: var(--text-lh, 1.5);
+ transition: transform 0.5s ease-in-out;
+ opacity: 0;
+}
+
+.t4s-col-item.is-selected {
+ opacity: 1;
+ transform: translateX(0);
+}
+
+/* Text styles for mobile */
+@media (max-width: 768px) {
+ .t4s-col-item {
+  font-size: var(--text-fs-mb, 12px);
+  line-height: var(--text-lh-mb, 1.2);
+  letter-spacing: var(--text-ls-mb, 0);
+ }
+}
+
+/* Animation for text fade */
+@keyframes fadeInOut {
+ 0% {
+  opacity: 0;
+ }
+ 50% {
+  opacity: 1;
+ }
+ 100% {
+  opacity: 0;
+ }
+}
+
+/* Animation for text translation */
+@keyframes slideInOut {
+ 0% {
+  transform: translateX(-100%);
+ }
+ 50% {
+  transform: translateX(0);
+ }
+ 100% {
+  transform: translateX(100%);
+ }
+}

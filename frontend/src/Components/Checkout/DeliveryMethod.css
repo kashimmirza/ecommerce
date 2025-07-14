@@ -1,0 +1,95 @@
+/**
+ * Style for the overall delivery method section
+ *
+ * @format
+ */
+
+.delivery-method {
+ margin: 20px 0;
+ padding: 15px;
+ background-color: #f8f8f8;
+ border-radius: 8px;
+ border: 1px solid #dddddd;
+ display: flex;
+ justify-content: space-between; /* Align children horizontally */
+ align-items: center; /* Vertically align items */
+}
+
+/* Style for the fieldset containing delivery options */
+.delivery-options {
+ border: none;
+ padding: 0;
+ margin: 0;
+ width: 100%; /* Ensure the radio button occupies the correct space */
+}
+
+/* Style for the radio button container */
+.radio-container {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+/* Style for the image icon */
+.icon {
+ width: 24px; /* Small image size */
+ height: 24px; /* Ensure it looks square */
+ margin-left: auto; /* Push the image to the far right */
+}
+
+/* Style for the legend */
+.delivery-options legend {
+ font-size: 18px;
+ font-weight: bold;
+ color: #333333;
+ margin-bottom: 10px;
+}
+
+/* Style for the radio button labels */
+.radio-label {
+ display: flex;
+ align-items: center;
+ font-size: 16px;
+ color: #555555;
+ cursor: pointer;
+ flex-grow: 1; /* Fill available space */
+}
+
+/* Style for the radio input */
+.radio-input {
+ margin-right: 10px;
+ cursor: pointer;
+}
+
+/* Styling for the selected radio input */
+.radio-input:checked + span {
+ font-weight: bold;
+ color: #007bff;
+}
+
+/* Additional styling for hover effects */
+.radio-label:hover {
+ color: #333333;
+}
+
+/* Responsiveness for mobile devices */
+@media (max-width: 600px) {
+ .delivery-method {
+  padding: 10px;
+  flex-direction: column; /* Stack items vertically */
+  align-items: flex-start; /* Align items to the start */
+ }
+
+ .icon {
+  margin-left: 0; /* Reset alignment for small screens */
+  margin-top: 10px; /* Add spacing */
+ }
+
+ .delivery-options legend {
+  font-size: 16px;
+ }
+
+ .radio-label {
+  font-size: 14px;
+ }
+}
