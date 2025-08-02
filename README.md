@@ -142,7 +142,7 @@ Showcasing how the different parts of the website come together, possibly with s
 
 * [.NET SDK 9.0 (or compatible version)](https://dotnet.microsoft.com/download/dotnet/)
 * [Node.js & npm](https://nodejs.org/en/download/)
-* [PostgreSQL](https://www.postgresql.org/download/) (running locally or accessible)
+* [sqlserver](https://www.sqlserver.org/download/) (running locally or accessible)
 * [AWS CLI](https://aws.amazon.com/cli/) (for Lambda deployment, if applicable)
 * [Git](https://git-scm.com/downloads)
 
