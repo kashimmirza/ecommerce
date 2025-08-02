@@ -119,7 +119,7 @@ Showcasing how the different parts of the website come together, possibly with s
 * ASP.NET Core Web API (C#)
 * Clean Architecture Principles
 * Entity Framework Core (for ORM)
-* sql server PostgreSQL (Database)
+* sql server(Database)
 * JWT Authentication
 * AWS Lambda (Serverless Compute)
 * AWS API Gateway
