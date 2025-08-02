@@ -117,10 +117,9 @@ Showcasing how the different parts of the website come together, possibly with s
 
 **Backend (API):**
 * ASP.NET Core Web API (C#)
-* CQRS Pattern (MediatR)
 * Clean Architecture Principles
 * Entity Framework Core (for ORM)
-* PostgreSQL (Database)
+* sql server PostgreSQL (Database)
 * JWT Authentication
 * AWS Lambda (Serverless Compute)
 * AWS API Gateway
@@ -130,9 +129,8 @@ Showcasing how the different parts of the website come together, possibly with s
 * AutoMapper (Object Mapping)
 
 **Frontend:**
-* Vue.js (JavaScript Framework)
+* react js(JavaScript Framework)
 * HTML5, CSS3
-* Razor Pages (for initial rendering/admin UI integration)
 * Bootstrap / AdminLTE (UI Frameworks)
 * Axios (HTTP Client)
 
@@ -191,6 +189,6 @@ This project is licensed under the [MIT License](LICENSE) - see the `LICENSE` fi
 
 ## 📞 Contact
 
-ABUL KASHIM/NERD WAY - kashimmirza86@gmail.com/+8801782669276 - [Link to your portfolio/LinkedIn]
+ABUL KASHIM/NERD WAY - kashimmirza86@gmail.com/whatsapp: +8801782669276 - [Link to your portfolio/LinkedIn]
 
 ---
