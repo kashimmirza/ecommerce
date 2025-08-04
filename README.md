@@ -38,7 +38,8 @@ Witness the platform in action with our comprehensive video demo, followed by de
 **For the best viewing experience, please click the image below to watch the full video demo hosted externally.**
 (Alternatively, you can [download the video directly here](Screenshots/videoformarketing.mkv).)
 
-[![Watch the Full Retail ERP & E-commerce Demo](Screenshots/video_thumbnail_placeholder.png)](YOUR_YOUTUBE_OR_VIMEO_LINK_HERE)
+
+[![Watch the Full Retail ERP & E-commerce Demo](Screenshots/videoformarketing.mkv)](YOUR_YOUTUBE_OR_VIMEO_LINK_HERE)
 
 *(**Note:** Replace `YOUR_YOUTUBE_OR_VIMEO_LINK_HERE` with the actual URL of your video after you upload it to a platform like YouTube. You should also create a small `video_thumbnail_placeholder.png` image (e.g., a still from your video with a "Play" button) and put it in your `Screenshots` folder for a better visual preview.)*
 
