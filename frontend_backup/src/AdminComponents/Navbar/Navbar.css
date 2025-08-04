@@ -1,0 +1,171 @@
+/** @format */
+
+.navbar {
+ display: flex;
+ align-items: center;
+ justify-content: space-between;
+ padding: 15px 60px;
+ box-shadow: 0 1px 3px -2px black;
+ margin-bottom: 1px;
+ background-color: #ffffff;
+ z-index: 1000;
+ position: relative;
+}
+
+/* Header logo */
+.site-header__logo {
+ font-size: 2rem;
+ font-weight: 700;
+ color: #222;
+}
+
+/* Main nav UL */
+.t4s-navigation {
+ text-align: center;
+}
+
+.t4s-nav__ul {
+ display: inline-flex;
+ flex-wrap: wrap;
+ align-items: center;
+ list-style: none;
+ margin: 0;
+ padding: 0;
+}
+
+.t4s-menu-item {
+ position: relative;
+ margin: 0 15px;
+}
+
+.t4s-menu-item a {
+ text-decoration: none;
+ color: #222;
+ font-weight: 500;
+ padding: 10px 15px;
+ transition: all 0.3s ease;
+}
+
+.t4s-menu-item a:hover {
+ color: #ce3241;
+}
+
+/* Dropdown Menu */
+.t4s-sub-menu {
+ position: absolute;
+ top: 100%;
+ left: 0;
+ background-color: #fff;
+ min-width: 180px;
+ box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+ opacity: 0;
+ pointer-events: none;
+ transition: all 0.3s ease-in-out;
+ z-index: 999;
+}
+
+.t4s-menu-item:hover > .t4s-sub-menu {
+ opacity: 1;
+ pointer-events: auto;
+}
+
+.t4s-sub-menu .t4s-menu-item {
+ margin: 0;
+ padding: 0;
+}
+
+.t4s-sub-menu .t4s-menu-item a {
+ display: block;
+ padding: 10px 15px;
+ font-size: 0.9rem;
+ color: #555;
+ border-bottom: 1px solid #eee;
+}
+
+.t4s-sub-menu .t4s-menu-item a:hover {
+ background-color: #f7f7f7;
+ color: #000;
+}
+
+/* Label NEW badge */
+.t4s_lb_nav {
+ position: absolute;
+ top: -5px;
+ right: -20px;
+ background-color: #ce3241;
+ color: #fff;
+ font-size: 10px;
+ padding: 2px 5px;
+ border-radius: 3px;
+ font-weight: bold;
+}
+
+/* Flex and alignment helpers */
+.t4s-d-flex {
+ display: flex;
+}
+
+.t4s-align-items-center {
+ align-items: center;
+}
+
+.t4s-d-inline-flex {
+ display: inline-flex;
+}
+
+.t4s-flex-wrap {
+ flex-wrap: wrap;
+}
+
+.t4s-text-center {
+ text-align: center;
+}
+
+.t4s-lh-1 {
+ line-height: 1;
+}
+
+.t4s-pr {
+ position: relative;
+}
+
+.t4s-pa {
+ position: absolute;
+}
+
+.t4s-op-0 {
+ opacity: 0;
+}
+
+.t4s-pe-none {
+ pointer-events: none;
+}
+
+.t4s-d-none {
+ display: none;
+}
+
+/* Responsive styles */
+@media screen and (max-width: 768px) {
+ .navbar {
+  flex-direction: column;
+  padding: 10px 20px;
+ }
+
+ .t4s-nav__ul {
+  flex-direction: column;
+  align-items: flex-start;
+ }
+
+ .t4s-menu-item {
+  margin: 5px 0;
+ }
+
+ .t4s-sub-menu {
+  position: static;
+  box-shadow: none;
+  opacity: 1;
+  pointer-events: auto;
+  background: transparent;
+ }
+}

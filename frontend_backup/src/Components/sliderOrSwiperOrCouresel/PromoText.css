@@ -1,0 +1,62 @@
+/**
+ * PromoText.css *
+ *
+ * @format
+ */
+.t4s-section-inner {
+ background-color: var(--bg-color);
+ padding: var(--pd-top) var(--pd-right) var(--pd-bottom) var(--pd-left);
+}
+
+.t4s-text-center {
+ text-align: center;
+}
+
+.t4s-prt-text p {
+ margin: 0;
+ color: #fff;
+}
+
+.promo-text-container {
+ width: 100%;
+ height: 60px; /* or any value */
+ background: #fff5f5;
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ overflow: hidden;
+}
+
+.promo-slide {
+ display: flex;
+ justify-content: center;
+ align-items: center;
+}
+
+.promo-message {
+ font-size: 28px;
+ font-weight: bold;
+ color: red;
+ text-align: center;
+ animation: fadeSlide 1s ease-in-out;
+}
+
+/* Fancy fade and slide effect */
+@keyframes fadeSlide {
+ 0% {
+  opacity: 0;
+  transform: translateY(30px);
+ }
+ 100% {
+  opacity: 1;
+  transform: translateY(0);
+ }
+}
+
+/* Mobile responsive */
+@media screen and (max-width: 768px) {
+ .promo-message {
+  font-size: 20px;
+  padding: 0 10px;
+ }
+}

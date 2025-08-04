@@ -1,0 +1,120 @@
+/** @format */
+
+.new-collections {
+ display: flex;
+ flex-direction: column;
+ align-items: center;
+ gap: 20px;
+ margin-bottom: 100px;
+}
+.new-collections h1 {
+ color: #171717;
+ font-size: 50px;
+ font-weight: 600;
+}
+.new-collections hr {
+ width: 200px;
+ height: 6px;
+ border-radius: 10px;
+ background: #252525;
+}
+.collections {
+ display: grid;
+ grid-template-columns: 1fr 1fr 1fr 1fr;
+ margin-top: 50px;
+ gap: 30px;
+}
+
+/* Popular.css */
+.category-section {
+ margin-bottom: 2rem;
+}
+
+.category-title {
+ font-size: 2rem; /* Increase font size for emphasis */
+ font-weight: bold; /* Bold text for better readability */
+ text-align: left; /* Align text to the left */
+ color: #ffffff; /* Set text color to white for contrast */
+ background: linear-gradient(
+  90deg,
+  #4caf50,
+  #81c784
+ ); /* Add a modern gradient background */
+ padding: 1rem 2rem; /* Add padding for a better look */
+ border-radius: 8px; /* Rounded corners for a softer appearance */
+ box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2); /* Add a shadow for depth */
+ margin-bottom: 1.5rem; /* Add spacing below the heading */
+ position: relative; /* Required for the animation effect */
+ overflow: hidden; /* Ensure animation stays within bounds */
+}
+category-title::before {
+ content: "";
+ position: absolute;
+ top: 0;
+ left: -50%;
+ width: 200%;
+ height: 100%;
+ background: rgba(255, 255, 255, 0.2);
+ transform: skewX(-20deg);
+ animation: slide-effect 3s infinite;
+}
+@keyframes slide-effect {
+ 0% {
+  left: -50%;
+ }
+ 50% {
+  left: 50%;
+ }
+ 100% {
+  left: 150%;
+ }
+}
+
+.items-grid {
+ display: flex; /* Arrange items in a row */
+ overflow-x: auto; /* Enable horizontal scrolling for overflowing items */
+ gap: 1rem; /* Space between items */
+ padding: 0.5rem 0; /* Add padding for visual spacing */
+}
+
+.items-grid::-webkit-scrollbar {
+ height: 8px; /* Horizontal scrollbar height */
+}
+
+.items-grid::-webkit-scrollbar-thumb {
+ background-color: #ccc; /* Scrollbar thumb color */
+ border-radius: 4px;
+}
+
+.items-grid::-webkit-scrollbar-thumb:hover {
+ background-color: #aaa;
+}
+/* Add zoom effect to images */
+.item-image {
+ width: 100%;
+ height: auto;
+ transition: transform 0.3s ease-in-out, box-shadow 0.3s ease-in-out;
+ object-fit: cover;
+ border-radius: 8px; /* Optional: for a rounded appearance */
+}
+
+/* Zoom-in effect on hover */
+.item-image:hover {
+ transform: scale(1.1); /* Scale the image to 110% of its size */
+ box-shadow: 0 8px 20px rgba(0, 0, 0, 0.2); /* Add a subtle shadow for a 3D effect */
+}
+
+/* For the container of the image to handle hover effect spacing */
+.item-container {
+ position: relative;
+ overflow: hidden; /* Ensure the image doesn't overflow */
+ border-radius: 8px; /* Match border-radius with the image */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ transition: box-shadow 0.3s ease-in-out;
+}
+
+.item-container:hover {
+ box-shadow: 0 10px 25px rgba(0, 0, 0, 0.3); /* Highlight the container when hovering */
+}

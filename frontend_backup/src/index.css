@@ -1,0 +1,104 @@
+/** @format */
+
+* {
+ margin: 0;
+}
+body {
+ margin: 0;
+ -webkit-font-smoothing: antialiased;
+ -moz-osx-font-smoothing: grayscale;
+ font-family: "poppins";
+}
+/* src/index.css (or your main CSS file) */
+
+code {
+ font-family: source-code-pro, Menlo, Monaco, Consolas, "Courier New", monospace;
+}
+:root {
+ --button-bdr: 2px;
+
+ --button-pd-lr: 35px;
+ --button-pd-lr-mb: 15px;
+
+ --button-mh: 50px;
+ --button-mh-mb: 32px;
+
+ --button-fs: 24px;
+ --button-fs-mb: 16px;
+
+ --button-fw: 300;
+
+ --button-ls: 0px;
+ --button-ls-mb: 0px;
+
+ --button-mgb: 0px;
+ --button-mgb-mb: 0px;
+
+ --pri-cl: #ffffff55;
+ --pri-cl-hover: #ce3241;
+
+ --second-cl: #ffffff;
+ --second-cl-hover: #ffffff;
+
+ --delay-animation: 0.1s;
+ --btn-color: #000;
+ --btn-color-hover: #fff;
+ --btn-background: #00aaff;
+ --btn-background-hover: #0077cc;
+ --btn-border: #0077cc;
+ --wrapper-mw: 1700px;
+ --font-family-1: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu,
+  Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+ --font-family-2: Poppins, sans-serif;
+ --font-family-3: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu,
+  Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+ --font-body-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto, Ubuntu,
+  Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji, Segoe UI Symbol;
+ --font-heading-family: -apple-system, BlinkMacSystemFont, Segoe UI, Roboto,
+  Ubuntu, Helvetica Neue, sans-serif, Apple Color Emoji, Segoe UI Emoji,
+  Segoe UI Symbol;
+ --t4s-success-color: #428445;
+ --t4s-success-color-rgb: 66, 132, 69;
+ --t4s-warning-color: #e0b252;
+ --t4s-warning-color-rgb: 224, 178, 82;
+ --t4s-error-color: #eb001b;
+ --t4s-error-color-rgb: 235, 0, 27;
+ --t4s-light-color: #ffffff;
+ --t4s-dark-color: #222222;
+ --t4s-highlight-color: #ec0101;
+ --t4s-tooltip-background: #383838;
+ --t4s-tooltip-color: #fff;
+ --primary-sw-color: #333;
+ --primary-sw-color-rgb: 51, 51, 51;
+ --border-sw-color: #ddd;
+ --secondary-sw-color: #505050;
+ --primary-price-color: #ce3241;
+ --secondary-price-color: #707070;
+ --t4s-body-background: #fff;
+ --text-color: #505050;
+ --text-color-rgb: 80, 80, 80;
+ --heading-color: #333333;
+ --accent-color: #ce3241;
+ --accent-color-rgb: 206, 50, 65;
+ --accent-color-darken: #91232d;
+ --accent-color-hover: var(--accent-color-darken);
+ --secondary-color: #222;
+ --secondary-color-rgb: 34, 34, 34;
+ --link-color: #707070;
+ --link-color-hover: #ce3241;
+ --border-color: #ddd;
+ --border-color-rgb: 221, 221, 221;
+ --border-primary-color: #333;
+ --button-background: #333333;
+ --button-color: #fff;
+ --button-background-hover: #ce3241;
+ --button-color-hover: #fff;
+ --sale-badge-background: #ce3241;
+ --sale-badge-color: #fff;
+ --new-badge-background: ;
+ --new-badge-color: #222;
+ --preorder-badge-background: ;
+ --preorder-badge-color: #222;
+ --soldout-badge-background: #00000077;
+ --soldout-badge-color: #fff;
+}

@@ -27,13 +27,30 @@ This project delivers a full-stack Enterprise Resource Planning (ERP) system tig
 
 ---
 
-## 📸 Demo & Screenshots
+## 🎥 Video Demo & 📸 Screenshots
+
+Witness the platform in action with our comprehensive video demo, followed by detailed screenshots of key features.
+
+---
+
+### Full System Walkthrough Video
+
+**For the best viewing experience, please click the image below to watch the full video demo hosted externally.**
+(Alternatively, you can [download the video directly here](Screenshots/videoformarketing.mkv).)
+
+[![Watch the Full Retail ERP & E-commerce Demo](Screenshots/video_thumbnail_placeholder.png)](YOUR_YOUTUBE_OR_VIMEO_LINK_HERE)
+
+*(**Note:** Replace `YOUR_YOUTUBE_OR_VIMEO_LINK_HERE` with the actual URL of your video after you upload it to a platform like YouTube. You should also create a small `video_thumbnail_placeholder.png` image (e.g., a still from your video with a "Play" button) and put it in your `Screenshots` folder for a better visual preview.)*
+
+---
+
+### Detailed Feature Screenshots
 
 Explore the power and elegance of our platform through these visual showcases:
 
 ---
 
-### 1. Engaging Homepage & Product Discovery
+#### 1. Engaging Homepage & Product Discovery
 
 Our intuitive homepage immediately draws customers in, highlighting featured products and easy navigation.
 
@@ -41,7 +58,7 @@ Our intuitive homepage immediately draws customers in, highlighting featured pro
 
 ---
 
-### 2. Streamlined Product Browse & Categorization
+#### 2. Streamlined Product Browse & Categorization
 
 Navigate effortlessly through diverse product categories and discover detailed product listings.
 
@@ -49,7 +66,7 @@ Navigate effortlessly through diverse product categories and discover detailed p
 
 ---
 
-### 3. Detailed Product Views
+#### 3. Detailed Product Views
 
 Get a closer look at each product with rich descriptions, pricing, and clear calls to action.
 
@@ -57,7 +74,7 @@ Get a closer look at each product with rich descriptions, pricing, and clear cal
 
 ---
 
-### 4. Advanced Product Search & Filtering
+#### 4. Advanced Product Search & Filtering
 
 Effortlessly find desired items with powerful search capabilities and intelligent filtering options.
 
@@ -65,7 +82,7 @@ Effortlessly find desired items with powerful search capabilities and intelligen
 
 ---
 
-### 5. Secure Shopping Cart & Checkout Process
+#### 5. Secure Shopping Cart & Checkout Process
 
 A smooth, multi-step checkout ensures a seamless purchasing experience for customers.
 
@@ -73,7 +90,7 @@ A smooth, multi-step checkout ensures a seamless purchasing experience for custo
 
 ---
 
-### 6. Order Confirmation & Tracking
+#### 6. Order Confirmation & Tracking
 
 Customers receive clear confirmations and can easily track the status of their orders.
 
@@ -81,7 +98,7 @@ Customers receive clear confirmations and can easily track the status of their o
 
 ---
 
-### 7. User Authentication & Profile Management
+#### 7. User Authentication & Profile Management
 
 Secure login, registration, and user profile management for personalized experiences.
 
@@ -89,25 +106,25 @@ Secure login, registration, and user profile management for personalized experie
 
 ---
 
-### 8. Backend / Admin Dashboard Overview
+#### 8. Backend / Admin Dashboard Overview
 
-A glimpse into the administrative interface for managing products, orders, and users. *(Adjust description based on what this image actually shows)*
+A glimpse into the administrative interface for managing products, orders, and users.
 
 ![Admin Dashboard - Overview](Screenshots/ecommercepartintroduction14.PNG)
 
 ---
 
-### 9. Product Management Interface (Admin)
+#### 9. Product Management Interface (Admin)
 
-Efficiently add, update, and manage your product catalog from the backend. *(Adjust description based on what this image actually shows)*
+Efficiently add, update, and manage your product catalog from the backend.
 
 ![Admin - Product Management](Screenshots/ecommerceintroductionpart19.PNG)
 
 ---
 
-### 10. Website Integration & Analytics (High-Level)
+#### 10. Website Integration & Analytics (High-Level)
 
-Showcasing how the different parts of the website come together, possibly with some basic analytics or site structure. *(Adjust description based on what this image actually shows)*
+Showcasing how the different parts of the website come together, possibly with some basic analytics or site structure.
 
 ![Website Integration Overview](Screenshots/ecommercewebsitepart12.PNG)
 
@@ -117,9 +134,10 @@ Showcasing how the different parts of the website come together, possibly with s
 
 **Backend (API):**
 * ASP.NET Core Web API (C#)
+* mvc pattern
 * Clean Architecture Principles
 * Entity Framework Core (for ORM)
-* sql server(Database)
+* PostgreSQL (Database)
 * JWT Authentication
 * AWS Lambda (Serverless Compute)
 * AWS API Gateway
@@ -129,7 +147,7 @@ Showcasing how the different parts of the website come together, possibly with s
 * AutoMapper (Object Mapping)
 
 **Frontend:**
-* react js(JavaScript Framework)
+* react.js (JavaScript Framework)
 * HTML5, CSS3
 * Bootstrap / AdminLTE (UI Frameworks)
 * Axios (HTTP Client)
@@ -142,7 +160,7 @@ Showcasing how the different parts of the website come together, possibly with s
 
 * [.NET SDK 9.0 (or compatible version)](https://dotnet.microsoft.com/download/dotnet/)
 * [Node.js & npm](https://nodejs.org/en/download/)
-* [sqlserver](https://www.sqlserver.org/download/) (running locally or accessible)
+* [sqlserver](https://sqlserver/download/) (running locally or accessible)
 * [AWS CLI](https://aws.amazon.com/cli/) (for Lambda deployment, if applicable)
 * [Git](https://git-scm.com/downloads)
 
@@ -150,7 +168,7 @@ Showcasing how the different parts of the website come together, possibly with s
 
 1.  **Clone the repository:**
     ```bash
-    git clone [https://github.com/your-username/ecommerce.git](https://github.com/your-username/ecommerce.git)
+    git clone [https://github.com//kashimmirza/ecommerce.git](https://github.com/your-username/ecommerce.git)
     cd ecommerce
     ```
 
@@ -165,7 +183,7 @@ Showcasing how the different parts of the website come together, possibly with s
 3.  **Frontend Setup (`frontend`):**
     * Navigate to the frontend project: `cd frontend`
     * Install dependencies: `npm install` (or `yarn install`)
-    * Configure API endpoint in `.env` file (e.g., `VUE_APP_API_URL=http://localhost:XXXXX/api/` or your deployed API Gateway URL).
+    * Configure API endpoint in `.env` file (e.g., `VUE_APP_API_API_URL=http://localhost:XXXXX/api/` or your deployed API Gateway URL).
     * Run the development server: `npm run serve` (or `yarn serve`)
 
 ### Accessing the Application
@@ -189,6 +207,6 @@ This project is licensed under the [MIT License](LICENSE) - see the `LICENSE` fi
 
 ## 📞 Contact
 
-ABUL KASHIM/NERD WAY - kashimmirza86@gmail.com/whatsapp: +8801782669276 - [Link to your portfolio/LinkedIn]
+[md abul kashim/nerd community] - [kashimmirza86@gmail.com/whatsapp: +8801782669276] - [https://www.linkedin.com/in/abul-kashim1998/]
 
 ---

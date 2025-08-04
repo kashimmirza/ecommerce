@@ -1,0 +1,136 @@
+/**
+ * Main container for the checkout page
+ *
+ * @format
+ */
+
+/* Checkout.css */
+.checkout-container {
+ padding: 20px;
+ max-width: 900px;
+ margin: 0 auto;
+ background-color: #f9f9f9;
+ border-radius: 8px;
+ box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.checkout-header {
+ text-align: center;
+ margin-bottom: 30px;
+}
+
+.checkout-header h1 {
+ font-size: 2rem;
+ font-weight: bold;
+ color: #333;
+}
+
+.auth-section {
+ text-align: right;
+ margin-bottom: 20px;
+}
+
+.btn {
+ padding: 10px 20px;
+ background-color: #4caf50;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.btn:hover {
+ background-color: #45a049;
+}
+
+.delivery-method {
+ margin-bottom: 30px;
+}
+
+.delivery-method h3 {
+ font-size: 1.2rem;
+ margin-bottom: 10px;
+}
+
+.delivery-option label {
+ display: inline-block;
+ margin-right: 20px;
+}
+
+.address-popup {
+ margin-bottom: 30px;
+}
+
+.address-inputs input {
+ width: 100%;
+ padding: 10px;
+ margin-bottom: 10px;
+ border-radius: 4px;
+ border: 1px solid #ddd;
+}
+
+.address-inputs button {
+ width: 100%;
+ padding: 10px;
+ background-color: #4caf50;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.address-inputs button:hover {
+ background-color: #45a049;
+}
+
+.order-summary {
+ margin-bottom: 30px;
+}
+
+.order-summary h3 {
+ font-size: 1.2rem;
+ margin-bottom: 10px;
+}
+
+.cart-items {
+ list-style: none;
+ padding: 0;
+}
+
+.cart-item {
+ display: flex;
+ justify-content: space-between;
+ margin-bottom: 10px;
+}
+
+.item-name {
+ font-weight: bold;
+}
+
+.item-quantity {
+ font-size: 0.9rem;
+}
+
+.total {
+ margin-top: 20px;
+ font-size: 1.2rem;
+ font-weight: bold;
+}
+
+.confirm-order-btn {
+ text-align: center;
+}
+
+.confirm-order-btn button {
+ padding: 12px 20px;
+ font-size: 1.1rem;
+ background-color: #4caf50;
+ color: white;
+ border: none;
+ border-radius: 4px;
+ cursor: pointer;
+}
+
+.confirm-order-btn button:hover {
+ background-color: #45a049;
+}

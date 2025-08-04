@@ -1,0 +1,25 @@
+/** @format */
+
+.sidebar {
+ display: flex;
+ flex-direction: column;
+ padding-top: 30px;
+ gap: 10px;
+ width: 250px;
+ height: 100vh;
+ background: #ffffff;
+ box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+}
+
+.sidebar-item {
+ display: flex;
+ align-items: center;
+ padding: 10px 20px;
+ border-radius: 6px;
+ transition: background 0.3s ease;
+}
+
+.sidebar-item:hover {
+ background: #f0f0f0;
+ cursor: pointer;
+}

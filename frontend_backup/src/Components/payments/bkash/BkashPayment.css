@@ -1,0 +1,250 @@
+/**
+ * Basic Reset and Utility Classes (as inferred from your HTML)
+ *
+ * @format
+ */
+
+body {
+ margin: 0;
+ font-family: sans-serif; /* Example font */
+ display: flex;
+ justify-content: center;
+ align-items: center;
+ min-height: 100vh;
+ background-color: #f0f2f5; /* Light grey background */
+}
+
+.d-flex {
+ display: flex;
+}
+
+.flex-center-x {
+ justify-content: center;
+}
+
+.flex-center-y {
+ align-items: center;
+}
+
+.text-center {
+ text-align: center;
+}
+
+.mb-8 {
+ margin-bottom: 8px; /* Example margin */
+}
+
+/* App Container */
+.app {
+ width: 100%;
+ max-width: 400px; /* Adjust as needed */
+ background-color: #fff;
+ box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+ border-radius: 8px;
+ overflow: hidden;
+}
+
+.container {
+ padding: 20px;
+}
+
+/* Header */
+.header {
+ padding: 15px 0;
+ border-bottom: 1px solid #eee;
+}
+
+.header__logo {
+ display: block;
+ margin: 0 auto;
+}
+
+/* Horizontal Rule */
+.hr {
+ display: block;
+ height: 1px;
+ background-color: #eee;
+ margin: 15px 0;
+}
+
+/* Merchant Info */
+.merchant {
+ align-items: center;
+ padding: 15px 0;
+ border-bottom: 1px solid #eee;
+}
+
+.merchant__logo {
+ width: 50px; /* Adjust as needed */
+ height: 50px;
+ margin-right: 15px;
+ border-radius: 50%; /* If circular logo */
+ object-fit: contain;
+}
+
+.merchant__details {
+ flex-grow: 1;
+ text-align: left;
+}
+
+.merchant__details__name {
+ margin: 0;
+ font-size: 1.1em;
+ color: #333;
+}
+
+.merchant__details__invoice {
+ margin: 5px 0 0;
+ font-size: 0.85em;
+ color: #777;
+}
+
+.merchant__amount p {
+ font-size: 1.2em;
+ font-weight: bold;
+ color: #e2136e; /* bKash primary color */
+ margin: 0;
+}
+
+/* Form Section */
+.form {
+ flex-direction: column;
+ padding: 20px;
+ background-color: #e2136e; /* bKash primary color */
+ color: #fff;
+ border-radius: 8px;
+ margin: 20px 0;
+}
+
+.form__label {
+ font-size: 1.1em;
+ margin-bottom: 15px;
+ display: block;
+}
+
+.form__label span {
+ font-weight: bold;
+}
+
+.form-input {
+ width: calc(100% - 40px); /* Adjust for padding */
+ padding: 12px 20px;
+ margin-bottom: 15px;
+ border: none;
+ border-radius: 5px;
+ font-size: 1.1em;
+ text-align: center;
+ outline: none;
+}
+
+.form-input::placeholder {
+ color: #aaa;
+}
+
+.form__info {
+ font-size: 0.9em;
+ margin-top: 5px;
+}
+
+.form__info .underline {
+ color: #fff;
+ text-decoration: underline;
+ cursor: pointer;
+}
+
+.form__error-message {
+ color: #ffdddd; /* Lighter red for error text */
+ font-size: 0.9em;
+ margin-top: -10px; /* Adjust to be closer to input */
+ margin-bottom: 10px;
+}
+
+/* OTP Specific Errors */
+.form__error-icon {
+ display: inline-block;
+ vertical-align: middle;
+ margin-right: 5px;
+}
+
+.form__error-text {
+ vertical-align: middle;
+}
+
+/* Buttons */
+.btn-group {
+ padding: 15px 0;
+ border-top: 1px solid #eee;
+ gap: 15px; /* Space between buttons */
+}
+
+.btn {
+ padding: 12px 25px;
+ border: none;
+ border-radius: 5px;
+ font-size: 1.1em;
+ cursor: pointer;
+ transition: background-color 0.3s ease;
+ text-decoration: none; /* For the anchor-like buttons */
+}
+
+.btn-group__btn-close {
+ background-color: #f0f0f0;
+ color: #333;
+}
+
+.btn-group__btn-close:hover {
+ background-color: #e0e0e0;
+}
+
+.btn-group__btn-confirm {
+ background-color: #e2136e; /* bKash primary color */
+ color: #fff;
+ font-weight: bold;
+}
+
+.btn-group__btn-confirm:hover:not(:disabled) {
+ background-color: #c7105e; /* Darker shade for hover */
+}
+
+.btn-group__btn-confirm.disabled,
+.disabled-link {
+ background-color: #cccccc !important;
+ cursor: not-allowed !important;
+ opacity: 0.6;
+}
+
+/* Footer */
+.footer {
+ padding: 15px 0;
+ border-top: 1px solid #eee;
+ font-size: 0.8em;
+ color: #777;
+ flex-direction: column;
+ gap: 5px;
+}
+
+.footer__helpline {
+ gap: 5px;
+}
+
+.footer__helpline-icon {
+ width: 20px; /* Adjust size */
+ height: 20px;
+ vertical-align: middle;
+}
+
+.footer__helpline-number {
+ color: #e2136e;
+ text-decoration: none;
+ font-weight: bold;
+}
+
+.footer__copyright {
+ margin-top: 5px;
+}
+
+/* For the outdated browser message (not part of the React component directly, but from your HTML) */
+.legacy_container {
+ display: none; /* Hide by default for modern browsers */
+ /* Add styles to display this if browser is old */
+}

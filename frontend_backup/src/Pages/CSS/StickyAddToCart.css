@@ -1,0 +1,48 @@
+/** @format */
+
+.sticky-add-to-cart {
+ position: fixed;
+ bottom: 0;
+ left: 0;
+ right: 0;
+ background: white;
+ display: flex;
+ justify-content: space-between;
+ padding: 10px;
+ box-shadow: 0 -2px 8px rgba(0, 0, 0, 0.1);
+}
+
+.product-info {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+.product-image img {
+ width: 65px;
+ height: 65px;
+ object-fit: cover;
+}
+
+.variant-dropdown {
+ position: relative;
+}
+
+.dropdown-content {
+ position: absolute;
+ top: 100%;
+ right: 0;
+ background: #fff;
+ box-shadow: 0 2px 5px rgba(0, 0, 0, 0.2);
+}
+
+.cart-actions {
+ display: flex;
+ align-items: center;
+ gap: 10px;
+}
+
+.quantity-selector input {
+ width: 40px;
+ text-align: center;
+}

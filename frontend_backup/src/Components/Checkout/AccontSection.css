@@ -1,0 +1,56 @@
+/**
+ * Root container for the account section
+ *
+ * @format
+ */
+
+/* CSS for AccountSection Component */
+
+/* Styling the section container */
+.account-section {
+ display: flex;
+ flex-direction: column;
+ gap: 10px;
+ padding: 15px;
+ background-color: #f9f9f9;
+ border: 1px solid #e0e0e0;
+ border-radius: 8px;
+ max-width: 400px;
+ margin: 0 auto;
+}
+
+/* Styling the labels */
+.account-section label {
+ font-size: 14px;
+ color: #333;
+ font-weight: 500;
+}
+
+/* Styling the input fields */
+.account-section input {
+ padding: 10px;
+ font-size: 14px;
+ border: 1px solid #ccc;
+ border-radius: 5px;
+ width: 100%;
+ box-sizing: border-box;
+ transition: border-color 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Input focus styling */
+.account-section input:focus {
+ border-color: #007bff;
+ box-shadow: 0 0 5px rgba(0, 123, 255, 0.5);
+ outline: none;
+}
+
+/* Placeholder styling */
+.account-section input::placeholder {
+ color: #aaa;
+ font-style: italic;
+}
+
+/* Adding a hover effect to the input */
+.account-section input:hover {
+ border-color: #0056b3;
+}

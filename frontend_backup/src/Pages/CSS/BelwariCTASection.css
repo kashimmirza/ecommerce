@@ -1,0 +1,70 @@
+/** @format */
+
+.belwari-logo-custom {
+ height: 75px;
+ width: auto;
+ padding: 10px 0;
+}
+
+@media (min-width: 768px) {
+ .belwari-logo-custom {
+  height: 110px;
+ }
+}
+
+.cta-text {
+ font-size: 22px;
+ font-weight: 300;
+ color: #ffffffcc;
+ line-height: 1.4;
+ margin-bottom: 25px;
+}
+
+@media (max-width: 768px) {
+ .cta-text {
+  font-size: 16px;
+  line-height: 1.2;
+  margin-bottom: 15px;
+ }
+}
+
+.cta-button {
+ font-size: 24px;
+ font-weight: 500;
+ padding: 12px 35px;
+ border: 2px solid #ffffff88;
+ color: #ffffff;
+ background-color: transparent;
+ text-decoration: none;
+ transition: all 0.3s ease;
+ max-width: fit-content;
+}
+
+.cta-button:hover {
+ background-color: #ce3241;
+ border-color: #ce3241;
+ color: #fff;
+}
+.cta-buttons-container {
+ display: flex;
+ gap: 1rem;
+}
+
+.cta-button-for-him,
+.cta-button-for-her {
+ background-color: rgba(255, 255, 255, 0.2);
+ border: 2px solid white;
+ color: white;
+ padding: 0.75rem 2rem;
+ font-size: 1.125rem;
+ letter-spacing: 0.025em;
+ font-weight: 300;
+ transition: all 300ms ease;
+ text-decoration: none;
+}
+
+.cta-button-for-him:hover,
+.cta-button-for-her:hover {
+ background-color: #ce3241;
+ border-color: #ce3241;
+}

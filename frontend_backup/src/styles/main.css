@@ -1,0 +1,111 @@
+/**
+ * src/styles/main.css
+ *
+ * @format
+ */
+
+/* Global styles for your components */
+
+/* Header Cart Styles */
+.t4s-h-cart__design3 .t4s-count-box {
+ width: 19px;
+ height: 19px;
+ line-height: 19px;
+ position: static;
+ display: inline-block;
+}
+.t4s-h-cart__design2 .t4s-site-nav__icon:last-child,
+.t4s-h-cart__design3 .t4s-site-nav__icon:last-child,
+.t4s-h-cart__design4 .t4s-site-nav__icon:last-child,
+.t4s-h-cart__design5 .t4s-site-nav__icon:last-child {
+ padding-right: 0;
+}
+@media (min-width: 768px) {
+ .t4s-h-cart__design2 .t4s-site-nav__cart a,
+ .t4s-h-cart__design4 .t4s-site-nav__cart a,
+ .t4s-h-cart__design5 .t4s-site-nav__cart a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+ }
+ .t4s-h-cart__design2 .t4s-h-cart-totals,
+ .t4s-h-cart__design4 .t4s-h-cart-totals {
+  display: block;
+  margin-left: 15px;
+ }
+ .t4s-h-cart__design4 .t4s-site-nav__cart .t4s-count-box,
+ .t4s-h-cart__design5 .t4s-site-nav__cart .t4s-count-box {
+  display: none;
+ }
+ .t4s-h-cart__design4 .t4s-h-cart-totals {
+  margin-left: 7px;
+ }
+ .t4s-h-cart__design5 .t4s-h-cart__divider {
+  display: inline-block;
+ }
+ .t4s-h-cart__design5 .t4s-h-cart-totals {
+  display: block;
+  margin-left: 7px;
+ }
+ .t4s-h-cart__design1 .t4s-site-nav__icon.t4s-site-nav__btnMenu {
+  padding-right: 0;
+ }
+}
+
+/* Additional styles for dropdown menus */
+.t4s-menu-item.has--children {
+ position: relative;
+}
+
+.t4s-sub-menu {
+ position: absolute;
+ min-width: 200px;
+ background: #fff;
+ box-shadow: 0 1px 5px rgba(0, 0, 0, 0.1);
+ z-index: 99;
+ transition: opacity 0.3s, visibility 0.3s;
+ opacity: 0;
+ visibility: hidden;
+}
+
+.t4s-menu-item:hover > .t4s-sub-menu,
+.t4s-menu-item.is--hover > .t4s-sub-menu {
+ /* Added is--hover class for clarity */
+ opacity: 1 !important;
+ visibility: visible !important;
+ pointer-events: auto !important;
+}
+
+.t4s-sub-menu .t4s-menu-item {
+ display: block;
+ width: 100%;
+}
+
+.t4s-sub-menu .t4s-menu-item a {
+ display: flex;
+ padding: 8px 15px;
+ justify-content: space-between;
+ align-items: center;
+ text-decoration: none;
+ color: #333;
+}
+
+.t4s-sub-menu .t4s-menu-item a:hover {
+ background-color: #f5f5f5;
+}
+
+.t4s-sub-menu-2 {
+ left: 100%;
+ top: 0;
+}
+
+/* Fix for nested menus (re-apply from original if needed) */
+.t4s-lazy_menu {
+ background: #fff;
+ padding: 10px 0;
+ min-width: 200px;
+}
+
+.t4s-lazy_menu .t4s-menu-item {
+ position: relative;
+}
